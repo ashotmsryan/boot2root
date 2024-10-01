@@ -1,6 +1,6 @@
 # writeup 2
 
-We have to do in the same way as in **writeup1** until doing **curl**))
+We have to do in the same way as in **writeup1** until using **curl** tool))
 
 <img src="img/Pasted image 20240712011804.png">
 
