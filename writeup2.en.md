@@ -1,6 +1,6 @@
 # writeup 2
 
-When we turn on the vm while holding **shift** button, it stays on **grub** and we can turn on the linux in different way from **grub**
+We have to do in the same way as in **writeup1** until doing **curl**))
 
 <img src="img/Pasted image 20240712011804.png">
 
