@@ -31,7 +31,9 @@ p=pty.spawn("/bin/bash");
 You can syplly write on your own code then just seach on Google **url encoder** and translate to this
 
 We have done this to get a reverse shell and execute cmd on server,
+
 So, now we need some kind of kernel exploit to have a root
+
 On this picture you can see cmds and potential issues.
 
 <img src="img/Pasted image 20240712011850.png">
