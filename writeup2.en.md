@@ -48,6 +48,15 @@ cat > dirty.c << end
 # and we gonna copy code here
 ```
 
+<img src="">
+
+Then we commpiled it via and run
+
+```
+gcc dirty.c -o dirty -pthread -lcrypt
+./dirty.c
+```
+
 
 ```
 #{partition} init=/bin/bash,
