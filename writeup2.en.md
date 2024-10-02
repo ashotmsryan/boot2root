@@ -10,7 +10,7 @@ A reverse shell is a type of network connection where an attacker gains control 
 
 Do not be scared, everything is done for educational purposes)
 
-<img src="img/photo_5435923932709510476_y.jpg">
+<img src="img/photo_5435923932709510478_y.jpg">
 
 here is the encrepted code of it 
 
