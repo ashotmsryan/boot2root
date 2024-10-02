@@ -6,7 +6,7 @@ After doing that we have an incredible way to get the control of the root
 
 **BACKDOOR**
 
-A "backdoor" in the context of computing refers to a hidden method for bypassing normal authentication or security controls, it allow unauthorized access to systems, applications, or networks, often without being detected
+A "backdoor" in the context of computing refers to a hidden method for bypassing normal authentication or security controls, it allows unauthorized access to systems, applications, or networks, often without being detected
 
 Do not be scared, everything is done for educational purposes)
 
