@@ -6,7 +6,7 @@ After doing that we have an incredible way to get the control of the root
 
 **BACKDOOR**
 
-Do not scared, everything is done for educational purposes)
+Do not be scared, everything is done for educational purposes)
 
 <img src="img/photo_5435923932709510476_y.jpg">
 
