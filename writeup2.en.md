@@ -38,7 +38,15 @@ On this picture you can see cmds and potential issues.
 
 <img src="img/photo_5435923932709510484_y.jpg">
 
-and we write
+If you see exact same thing, Congratulations!!!🥳 you also got an error🆘😅
+This shows that curl did not work properly -> to fix it do this
+
+```
+cat > dirty.c << end
+# and we gonna copy code here
+```
+
+
 ```
 #{partition} init=/bin/bash,
 live init=/bin/bash
