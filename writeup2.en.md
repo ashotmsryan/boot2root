@@ -59,7 +59,7 @@ gcc dirty.c -o dirty -pthread -lcrypt
 we entered the new password
 
 AAAAANNNNNNDDDDDD that's it we have done it🚨
-Check /etc/passwd to see if the new user was created.
+Check **/etc/passwd** to see if the new user was created.
 You can log in with the username 'firefart' and the password 'gago'
 ```
 #{partition} init=/bin/bash,
