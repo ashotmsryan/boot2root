@@ -4,9 +4,9 @@ We have to do in the same way as in **writeup1** until using **curl** tool))
 
 After doing that we have an incredible way to get the control of the root
 
-**BACKDOOR**
+**REVERS SHELL**
 
-A "backdoor" in the context of computing refers to a hidden method for bypassing normal authentication or security controls, it allows unauthorized access to systems, applications, or networks, often without being detected
+A reverse shell is a type of network connection where an attacker gains control of a target machine by initiating a connection from the target to the attacker's machine. In a typical shell attack (standard shell), the attacker directly connects to the target machine. However, in a reverse shell, the roles are reversed: the target system initiates the connection to the attacker's system
 
 Do not be scared, everything is done for educational purposes)
 
@@ -61,3 +61,4 @@ we entered the new password
 AAAAANNNNNNDDDDDD that's it we have done it🚨
 Check **/etc/passwd** to see if the new user was created.
 You can log in with the username 'firefart' and the password 'gago'
+You can also use **id** to check that it is root as id is 0
