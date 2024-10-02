@@ -48,7 +48,7 @@ cat > dirty.c << end
 # and we gonna copy code here
 ```
 
-<img src="">
+<img src="img/photo_5435923932709510485_y.jpg">
 
 Then we commpiled it via and run
 
@@ -56,8 +56,11 @@ Then we commpiled it via and run
 gcc dirty.c -o dirty -pthread -lcrypt
 ./dirty.c
 ```
+we entered the new password
 
-
+AAAAANNNNNNDDDDDD that's it we have done it🚨
+Check /etc/passwd to see if the new user was created.
+You can log in with the username 'firefart' and the password 'gago'
 ```
 #{partition} init=/bin/bash,
 live init=/bin/bash
