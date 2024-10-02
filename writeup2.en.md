@@ -36,7 +36,7 @@ So, now we need some kind of kernel exploit to have a root
 
 On this picture you can see cmds and potential issues.
 
-<img src="img/Pasted image 20240712011850.png">
+<img src="img/photo_5435923932709510484_y.jpg">
 
 and we write
 ```
