@@ -61,4 +61,5 @@ we entered the new password
 AAAAANNNNNNDDDDDD that's it we have done it🚨
 Check **/etc/passwd** to see if the new user was created.
 You can log in with the username 'firefart' and the password 'gago'
+
 You can also use **id** to check that it is root as id is 0
