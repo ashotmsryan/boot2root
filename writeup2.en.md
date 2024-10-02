@@ -61,12 +61,3 @@ we entered the new password
 AAAAANNNNNNDDDDDD that's it we have done it🚨
 Check **/etc/passwd** to see if the new user was created.
 You can log in with the username 'firefart' and the password 'gago'
-```
-#{partition} init=/bin/bash,
-live init=/bin/bash
-```
-And we get the following result
-
-<img src="img/Pasted image 20240712012047.png">
-
-By the way, it turns out that this method works almost on all linux systems currently, and the only way to protect from this is to simply encrypt the disk 🙂
