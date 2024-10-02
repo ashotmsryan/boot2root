@@ -2,6 +2,10 @@
 
 We have to do in the same way as in **writeup1** until using **curl** tool))
 
+After doing that we have an incredible way to get the control of the root
+
+**BACKDOOR**
+
 <img src="img/Pasted image 20240712011804.png">
 
 whenever we press **tab**, we'll see partitions that we can connect.
