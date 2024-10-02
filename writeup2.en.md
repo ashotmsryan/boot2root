@@ -50,7 +50,7 @@ cat > dirty.c << end
 
 <img src="img/photo_5435923932709510485_y.jpg">
 
-Then we commpiled it via and run
+Then we commpiled it via this and run
 
 ```
 gcc dirty.c -o dirty -pthread -lcrypt
