@@ -6,7 +6,7 @@ After doing that we have an incredible way to get the control of the root
 
 **BACKDOOR**
 
-<img src="img/Pasted image 20240712011804.png">
+<img src="img/photo_5435923932709510476_y.jpg">
 
 whenever we press **tab**, we'll see partitions that we can connect.
 
